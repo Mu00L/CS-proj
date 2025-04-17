@@ -82,7 +82,7 @@ with tab1:
 # --- Tab 2: Weather‑Adapted View ---
 with tab2:
     st.header("Weather‑Adapted Suggestions")
-    city = st.text_input("Enter City", "New York")
+    city = st.text_input("Enter City", "St. Gallen")
     if st.button("Show Weather‑Adapted Items"):
         lat, lon = get_city_coordinates(city)
         if lat is None:
