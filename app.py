@@ -16,40 +16,6 @@ st.title("👗 Virtual Closet App")
 # --- Inject updated CSS ---
 st.markdown("""
 <style>
-/* Main background & text */
-.block-container, .stApp { background-color: #FFFFFF; }
-body, .css-1v3fvcr { color: #333333; }
-
-/* Sidebar */
-[data-testid="stSidebar"] {
-  background-color: #F7F7F7;
-}
-
-/* Headings */
-h1, h2, h3 { color: #333333; }
-
-/* Buttons */
-.stButton>button {
-  background-color: #FF8C94;
-  color: #FFFFFF;
-  border-radius: 8px;
-  padding: 0.5em 1em;
-  font-weight: bold;
-}
-.stButton>button:hover {
-  background-color: #FF6F7F;
-}
-
-/* Input boxes */
-.stTextInput>div>div>input,
-.stSelectbox>div>div>div>select {
-  border: 1px solid #DDD;
-  border-radius: 6px;
-  padding: 0.5em;
-  background-color: #FFFFFF;
-}
-
-/* Image cards */
 .image-card {
     background-color: #FFFFFF;
     padding: 12px;
